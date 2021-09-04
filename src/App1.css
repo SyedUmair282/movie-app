@@ -1,0 +1,90 @@
+#main {
+    background-color: #3d2f52;
+}
+
+nav {
+    background-color: #3d2f52;
+}
+
+#heading {
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    margin-left: 18rem;
+}
+
+.nav-item a {
+    color: white;
+    font-size: large;
+}
+
+#pop {
+    color: white;
+}
+
+@media screen and (max-width: 1280px) {
+    ul {
+        margin-left: 0px;
+    }
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#foot {
+    margin-top: auto;
+    background-color: #3d2f52;
+}
+
+#foot p {
+    text-align: center;
+    line-height: 3.5rem;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#main-content {
+    text-align: center;
+}
+
+#image {
+    height: 13rem;
+    width: 15rem;
+}
+
+#flex {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.card-body {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+}
+
+#accordion {
+    Position: relative;
+    top: 10px;
+    color: black;
+    z-index: 10;
+    width: 12rem;
+    background-color: #b9a7d4;
+}
+
+#acc_body {
+    overflow: scroll;
+    height: 9rem;
+    background-color: black;
+    color: white;
+}
