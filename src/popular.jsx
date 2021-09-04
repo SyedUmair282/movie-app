@@ -119,7 +119,7 @@ function Popular(props) {
         <div className="col-md-10 col-12 mx-auto">
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#" id="heading"><i className="fa fa-film" style={{fontSize:"20px",color:"red"}}></i> Movies App</a>
+            <Link className="navbar-brand" to="/" id="heading"><i className="fa fa-film" style={{fontSize:"20px",color:"red"}}></i> Movies App</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -138,7 +138,7 @@ function Popular(props) {
               <br />
               {obj.user_name?<div className="dropdown">
               <button className="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img src={obj.image} style={{width:"30px",height:"30px",borderRadius:"20px"}}/>{" "+obj.user_name}
+              <img src={obj.image} alt="" style={{width:"30px",height:"30px",borderRadius:"20px"}}/>{" "+obj.user_name}
               </button>
                 <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <button className="dropdown-item" onClick={()=>props.logout()}>Logout</button>
